@@ -1,0 +1,33 @@
+﻿# Frontend dependencies and build
+frontend/node_modules/
+frontend/dist/
+
+# Backend generated files
+backend/target/
+
+# Local database files
+mysql-local-data/
+
+# Maven installation and ZIP
+tools/maven/
+apache-maven-3.9.9-bin.zip
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+backend/.env
+backend/.env.*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
